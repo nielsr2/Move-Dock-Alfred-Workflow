@@ -7,9 +7,12 @@ A simple Alfred workflow for moving your dock's position to the left, right, or 
 
 It calls the follow bash command(s):
 
-````bash
+```bash
 defaults write com.apple.dock orientation -string $query;
 
 killall Dock;
 ```
-````
+
+---
+
+v1.1, added 'dock autohide' - toggling docks autohide
